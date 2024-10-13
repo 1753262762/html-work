@@ -1,1 +1,327 @@
-<meta http-equiv="refresh" content="0;url=demo.html">
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>下北泽小天使</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .highlight-text {
+            font-size: 26px;
+            font-weight: bold;
+            color: yellow;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.5);
+            /* 背景色与透明度调整 */
+            padding: 20px;
+        }
+
+        .content {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+            margin: 20px;
+            /* 添加边距使内容更美观 */
+        }
+
+        .poem {
+            max-width: 300px;
+            text-align: center;
+            border: 2px solid #ccc;
+            /* 添加边框 */
+            padding: 10px;
+            /* 添加内边距 */
+            background-color: rgba(255, 255, 255, 0.8);
+            /* 设置背景颜色 */
+            border-radius: 10px;
+            /* 圆角 */
+        }
+
+        .poem h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .poem p {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+
+        .small-image {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .image-gallery-hongxia {
+            margin-left: auto;
+            /* 使其推到最右侧 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-gallery-hongxia img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .main-image {
+            max-width: 100%;
+            border-radius: 10px;
+            opacity: 0.1;
+        }
+
+        .data-card {
+            background-color: #2f4f4f;
+            color: #ffffff;
+            width: 300px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .data-card h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 18px;
+            border-bottom: 1px solid #ffffff;
+            padding-bottom: 10px;
+        }
+
+        .data-card p {
+            margin: 5px 0;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .data-card .highlight {
+            color: #00ced1;
+        }
+
+        .box {
+            background-color: #ffffff;
+            /* 背景颜色 */
+            padding: 20px;
+            /* 内边距 */
+            border-radius: 10px;
+            /* 圆角 */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            /* 阴影效果 */
+            margin-bottom: 20px;
+            /* 下边距 */
+        }
+
+        .box h2 {
+            font-size: 24px;
+            /* 大标题字体尺寸 */
+            margin-bottom: 15px;
+            /* 下边距 */
+            color: #4a90e2;
+            /* 标题颜色 */
+            border-bottom: 2px solid #4a90e2;
+            /* 底部边框 */
+            padding-bottom: 10px;
+            /* 边框与文本之间的间距 */
+        }
+
+        .box h3 {
+            font-size: 20px;
+            /* 小标题字体尺寸 */
+            margin: 15px 0;
+            /* 上下边距 */
+            color: #333;
+            /* 小标题颜色 */
+        }
+
+        .box p {
+            margin: 10px 0;
+            /* 上下边距 */
+            line-height: 1.6;
+            /* 行高 */
+            color: #555;
+            /* 字体颜色 */
+        }
+
+        .small-text {
+            font-size: 12px;
+            /* 小字大小 */
+            color: #888;
+            /* 小字颜色 */
+            font-style: italic;
+            /* 斜体 */
+        }
+
+        .link-item {
+            margin: 5px;
+            /* 每个链接项之间的间距 */
+            padding: 10px 15px;
+            /* 内边距 */
+            background-color: #f9f9f9;
+            /* 背景颜色 */
+            border: 1px solid #ddd;
+            /* 边框样式 */
+            border-radius: 5px;
+            /* 圆角边框 */
+            transition: background-color 0.3s, transform 0.3s;
+            /* 动画效果 */
+            text-align: center;
+            /* 文本居中 */
+            margin: 5px 10px;
+            position: relative;
+            /* <!-- 为预览图提供相对定位 --> */
+            color: #246f27;
+            /* 链接颜色 */
+            text-decoration: unset;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="image/logo.jpg" alt="网站Logo">
+            <span>Ijichi Nijika</span>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="demo.html">首页</a></li>
+                <li><a href="pages/services.html">服务</a></li>
+                <li><a href="pages/contact.html">加入我们</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="highlight-text">
+        今日のぼっちちゃん、私は本当にヒーローに見えたよ!<br>
+        今天的波奇酱,就是我心目中真正的英雄啊!
+    </div>
+
+    <div class="content">
+        <div class="poem">
+            <img src="image/虹夏大图/7268-d61dfad08a13fb7c82cea7db6b42a344.jpg" alt="诗图1" class="small-image">
+            <h2>短诗一首🥺🥺</h2>
+            <p>伊人倚门望,地老天荒长.</p>
+            <p>知我心头意,虹霞映日旁.</p>
+            <p>夏日微风凉,好景在前方:</p>
+            <p>可爱深红映,爱意向天光.</p>
+            <img src="image/虹夏大图/eef8-1ef06681b84ecdb390f5864743e3a236.jpg" alt="诗图2" class="small-image">
+        </div>
+        <div class="data-card">
+            <h2>基本数据</h2>
+            <p><strong>本名</strong><br>
+                いじち にじか<br>
+                伊地知 虹夏<br>
+                (Jīchi Nijika)
+            </p>
+            <p><strong>别号</strong><br>
+                下北泽大天使、一妈妈、LED虹夏
+            </p>
+            <p><strong>发色</strong><br>
+                金发
+            </p>
+            <p><strong>瞳色</strong><br>
+                红瞳
+            </p>
+            <p><strong>身高</strong><br>
+                154cm
+            </p>
+            <p><strong>体重</strong><br>
+                48kg
+            </p>
+            <p><strong>年龄</strong><br>
+                17-18岁
+            </p>
+            <p><strong>生日</strong><br>
+                <span class="highlight">5月29日</span>
+            </p>
+            <p><strong>血型</strong><br>
+                A型
+            </p>
+            <p><strong>星座</strong><br>
+                双子座
+            </p>
+            <p><strong>声优</strong><br>
+                铃代纱弓
+            </p>
+            <p><strong>活动范围</strong><br>
+                下北泽
+            </p>
+            <p><strong>所属团体</strong><br>
+                结束乐队
+            </p>
+            <p><strong>个人状态</strong><br>
+                下北泽高中二年级生→三年级生
+            </p>
+        </div>
+        <div class="box">
+            <h2>角色介绍</h2>
+            <p>
+                伊地知虹夏<span class="small-text">(いじちにじか)</span>是由はまじあき所创作的漫画
+                <span class="small-text">孤独摇滚!</span>及其衍生作品中的登场角色.
+            </p>
+            <h3>简介</h3>
+            <p>下北泽高校2年级生,结束乐队的鼓手兼队长.</p>
+            <p>元气温柔的气氛调节者,善解人意,能够细心地观察每个成员并给予关照.</p>
+            <p>在曾是乐队成员、现在是Livehouse STARRY的老板的姐姐的影响下,自幼接触乐队文化,梦想是组建人气超高的乐队.</p>
+            <p>邀请(生拉硬拽)小波奇加入结束乐队,另外山田凉也是她邀请加入乐队的.</p>
+            <p>责任心很强,作为乐队的队长以及唯一的正常人为乐队的各种事情尽心尽力(虹夏:要是一直在身后注视着她们的我都不认真的话可怎么办啊).</p>
+            <p>害怕阴森诡异的事物,对鬼屋很没辙.</p>
+            <p>角色的原型是乐队ASIAN KUNG-FU GENERATION的鼓手伊地知洁.</p>
+            <p>元气满满又开朗的高中二年级生,担任结束乐队的鼓手.</p>
+            <p>对加入到结束乐队中的小波奇给予了很多照顾,担任着乐队总管的角色.</p>
+            <p>姐姐伊地知星歌是Livehouse的店长.</p>
+            <p>对Livehouse有着特殊的感情.</p>
+            <h2>经历</h2>
+            <p>拉来山田凉和喜多郁代组建了「结束乐队」,然而喜多不久就逃走并导致吉他手缺失.虹夏焦急之时在公园与背着吉他的后藤一里相遇,邀请其加入「结束乐队」.</p>
+            <p>某一天中午在前往Livehouse的半路遇见喜多,在一里的调解下与喜多和好.喜多重新加入后,结束乐队基本成型.</p>
+            <p>虽然在排练时就有察觉,但在初次正式演出后确认了一里就是「吉他英雄」.</p>
+            <p>与山田凉是同班同学,关系很好.虽然经常吐槽凉,但还是像母亲一般地照顾凉(下北泽大天使).期中考试前发现凉的学习成绩奇差,遂带着凉从初中一年级的知识开始补习,此后又安慰陷入困境的凉找回了作曲的感觉.房间里一多半都被凉占领.老夫老妻.
+            </p>
+            <p>为了驾驶乐队的器材车,于漫画48话同山田凉在驾校学习.</p>
+            <p>在漫画74话成功考上芳文大学,与同样录取的大槻悠悠子成为同校生.</p>
+            <h2>杂谈</h2>
+            <p>初设是装傻役,但由于台词很多,漫画3话左右就转型成吐槽役了.</p>
+            <p>动画版头上的近似三角形的呆毛是悬在空中的(伊地知星歌亦如此)祖传磁悬浮呆毛(本体).呆毛还会随心情变换动作和形态,萌系画风或简笔画时三角形的形状和悬浮状态会更加明显.</p>
+            <p>做题的时候每解开一道题头上的呆毛就会相当剧烈地来回晃动,但是遇到束手无策的题目时会根据呆毛的位置决定选项(虹夏:因为呆毛往右倾了所以是选3.)</p>
+            <p style="text-decoration: line-through"> (波奇:没想到那呆毛竟然还有这样的功能!).</p>
+            <p>虹夏呆毛的形状由于和多力多滋(Doritos)牌玉米片十分相似,成为了二创者们所喜爱的素材,例如下面这个「如何种植虹夏」的教程.</p>
+            <a href="https://www.bilibili.com/video/BV1sw4m1S78R/?p=1" class="link-item">
+                (虹夏生贺)如何种植虹夏</a>
+            <p>甚至有人将其做成了游戏.游戏中玩家需要点击虹夏的呆毛并用玉米片的袋子收集掉落的呆毛,再喂给旁边出现的凉.</p>
+            <a href="https://www.bilibili.com/video/BV1hK411C7Jp/?p=1&vd_source=af5b4102998582352be11ad7165b6b3c"
+                class="link-item">
+                呆毛可以无限生长的虹夏</a>
+            <p>吐槽时眼睛会变成猫猫眼.</p>
+            <img src="image/225px-伊地知虹夏_猫猫眼_磁悬浮呆毛.webp" class="small-image">
+            <p>是结束乐队四人中最矮的,同时也是四人中最年长的.</p>
+            <p>擅长画画,结束乐队的队服也是由虹夏设计.</p>
+            <p>设定里同时也是角色中相对最傻(指智商)的一个.</p>
+            <p>虽然自称成绩一般,但根据漫画中的考试表现来看,平时的成绩反而是乐队四人中最好的.</p>
+            <p>姐姐笨手笨脚,所以家务都是自己做,因此很能干.</p>
+            <h2>设备</h2>
+            <p>使用的手机型号为iPhone 11.</p>
+            <p>使用的鼓组TAMA Imperialstar</p>
+            <p>使用的军鼓是Pearl CS1450 Chad Smith签名款</p>
+            <p>使用的鼓槌是Pearl 7A.</p>
+        </div>
+
+        <div class="image-gallery-hongxia">
+            <img src="image/伊地知虹夏_动画版立绘_无阴影.png" alt="主要艺术图" class="small-image">
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 いじちにじか. 保留所有权利.</p>
+        <p>版权所有,未经许可不得转载.</p>
+        <p style="text-decoration: line-through;">收买h7不在版权考虑范围之内</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
